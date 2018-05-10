@@ -31,7 +31,7 @@ img, embed, object, video {
 .header__photo {
   height: 175px;
   margin-top: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .header__titles{
@@ -55,6 +55,7 @@ img, embed, object, video {
   margin-left: auto;
   margin-right: auto;
   background-color: #F0F0F0;
+  margin-bottom: 30px;
 }
 
 .nav__list{
@@ -71,6 +72,7 @@ img, embed, object, video {
   line-height: 25px;
   padding: 10px;
   font-size: 18px;
+  border-bottom: gray;
 }
 
 .nav a{
@@ -79,7 +81,11 @@ img, embed, object, video {
   padding: 1.5em;
 }
 
-.hero__image{
+.nav a:hover{
+  color: gray;
+}
+
+/*.hero__image{
   width: 100%;
   height: 550px;
   display: block;
@@ -87,7 +93,7 @@ img, embed, object, video {
   margin-right: auto;
   padding-top: 25px;
   padding-bottom: 25px;
-}
+}*/
 
 .featured_work
  {

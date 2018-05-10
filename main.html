@@ -8,7 +8,10 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="js/script.js"></script>-->
   </head>
+
   <body>
     <div class="container">
       <div class="header">
@@ -19,6 +22,12 @@
         </div>
       </div>
 
+        <a id="menu" class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__item"><a href="#">Blog</a></li>
@@ -26,8 +35,6 @@
           <li class="nav__item"><a href="#">Contact</a></li>
         </ul>
       </nav>
-
-      <div class="line"></div>
 
       <div class="hero">
         <img class="hero__image" src="images/mainplaceholder.jpeg" alt="photo of a laptop">
@@ -40,13 +47,25 @@
             <div class="featured_work_image"> <a href="https://codepen.io/KishaDavis/full/oqGZzG/"> <img class="placeholder" src="images/animalcard.jpeg" alt="photo of zebra"> </a> <h3 class="featured_work_subtitle">Pixel Art Maker</h3></div>
             <div class="featured_work_image"> <a href="https://codepen.io/KishaDavis/full/KRaVBw/"> <img class="placeholder" src="images/placeholdertwo.jpeg" alt="photo of a laptop"> </a> <h3 class="featured_work_subtitle">Animal Card</h3></div>
       </div>
+
       <div class=footer>
-      <div class="coding_platforms">
-        <a href="https://github.com/futurefbi07" class="github"><i class="fa fa-github"></i></a>
-        <a href="https://futurefbi07.github.io/" class="githubpage"><i class="fa fa-file-image-o"></i></a>
-        <a href="#" class="codepen"><i class="fa fa-codepen"></i></a>
-      </div>
-      <p class="copyright">  &copy; 2018 Lakisha Davis </p>
+        <div class="coding_platforms">
+          <a href="https://github.com/futurefbi07" class="github"><i class="fa fa-github"></i></a>
+          <a href="https://futurefbi07.github.io/" class="githubpage"><i class="fa fa-file-image-o"></i></a>
+          <a href="#" class="codepen"><i class="fa fa-codepen"></i></a>
+        </div>
+        <p class="copyright">  &copy; 2018 Lakisha Davis </p>
       </div>
 
-    </div>
+    <script>
+      const menu = document.querySelector('#menu');
+      const nav = document.querySelector('.nav');
+       menu.addEventListener('click', function(e) {
+        nav.classList.toggle('open');
+        e.stopPropagation();
+      });
+    </script>
+    
+  </div>
+</body>
+</html>
