@@ -25,24 +25,24 @@ img, embed, object, video {
   display: flex;
 }
 
-.header__photo {
+.header_photo {
   height: 175px;
   margin-top: 40px;
   margin-bottom: 15px;
 }
 
-.header__titles {
+.header_titles {
   margin-top: 80px;
   line-height: 5px;
   text-align: right;
   width: 100%;
 }
 
-.header__title {
+.header_title {
   font-size: 54px;
 }
 
-.header__subtitle {
+.header_subtitle {
   font-size: 20px;
   font-style: italic;
 }
@@ -55,7 +55,7 @@ img, embed, object, video {
   margin-bottom: 30px;
 }
 
-.nav__list {
+.nav_list {
   list-style: none;
   text-transform: uppercase;
   padding: 0;
@@ -63,7 +63,7 @@ img, embed, object, video {
   text-align: center;
 }
 
-.nav__item {
+.nav_item {
   font-weight: bold;
   display: inline-block;
   line-height: 25px;
