@@ -6,7 +6,7 @@
   .header__titles{
     text-align: left;
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
   }
 
   .header__title{
@@ -51,6 +51,10 @@
     font-size: 14px;
     z-index: 5;
     border: white solid 5px;
+  }
+
+  .hero{
+    margin-top: 10px;
   }
 
   .hero__image{
